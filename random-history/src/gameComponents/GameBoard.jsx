@@ -192,7 +192,7 @@ const GameBoard = () => {
         };
         break;
         default:
-          console.log('something done gone way wrong!!!');
+          console.log('something has gone wrong!!!');
     }
   }
 
