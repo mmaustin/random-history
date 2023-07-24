@@ -17,7 +17,7 @@ export const questionsAnswers = {
   },
   q3: {question: "Confederate general James Longstreet is viewed as what to admirers of the Confederacy?",
   answers: ['A hero', 'A scalawag', 'A carpet bagger'],
-  answer: 'a scalawag'
+  answer: 'A scalawag'
   },
   q4: {question: "What untrained historian wrote several acclaimed histories, including 'The Guns of August'?",
   answers: ['Barbara Tuchman', 'Eleanor Roosevelt', 'Helen Thomas'],
