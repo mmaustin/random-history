@@ -235,7 +235,6 @@ const GameBoard = () => {
           { showQuiz ?
             <>
             <GameQuiz score={score} setShowQuiz={setShowQuiz} setScore={setScore} setAmount={setAmount} amount={amount} startQuizNumber={startQuizNumber} displayNextBoard={displayNextBoard} colorProp={colorProp} setColorProp={setColorProp} correctAnswers={correctAnswers} wrongTwice={wrongTwice} setCorrectAnswers={setCorrectAnswers} setWrongTwice={setWrongTwice}/>
-            {/* <button type="button" onClick={() => setShowQuiz('')}>Show Game Board</button> */}
             </>
             :
             <Stack paddingLeft='10px' paddingRight='10px' direction={isNonMobileScreens ? 'row' : 'column'}>

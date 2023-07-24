@@ -16,7 +16,7 @@ export const questionsAnswers = {
   answer: 'CSS Planter'
   },
   q3: {question: "Confederate general James Longstreet is viewed as what to admirers of the Confederacy?",
-  answers: ['a hero', 'a scalawag', 'a carpet bagger'],
+  answers: ['A hero', 'A scalawag', 'A carpet bagger'],
   answer: 'a scalawag'
   },
   q4: {question: "What untrained historian wrote several acclaimed histories, including 'The Guns of August'?",
@@ -47,7 +47,7 @@ export const questionsAnswers = {
   answers: ['Yale', 'Columbia', 'Harvard'],
   answer: 'Columbia'
   },
-  q11: {question: "The free Black population in America roughly numbered when Southern states began seceding from the Union?",
+  q11: {question: "The total free Black population in America was roughly what when Southern states began seceding from the Union?",
   answers: ['500,000', '1,000,000', '1,500,00'],
   answer: '500,000'
   },

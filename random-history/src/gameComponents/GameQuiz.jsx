@@ -6,8 +6,6 @@ const GameQuiz = ({score, setShowQuiz, setScore, amount, setAmount, startQuizNum
 
   
   const [randomNumber, setRandomNumber] = useState(startQuizNumber);
-  // console.log(startQuizNumber);
-  // console.log('random number:', randomNumber);
   const [value, setValue] = useState('');
 
   const handleChange = e => {
@@ -22,12 +20,9 @@ const GameQuiz = ({score, setShowQuiz, setScore, amount, setAmount, startQuizNum
     }
     
     setRandomNumber(random);
-    //let property = Object.values(questionsAnswers)[random];
-    //console.log(random);
   };
   
 
-  //console.log(questionsAnswers);
   let property = Object.values(questionsAnswers)[randomNumber];
   let question, answerChoices, answer;
   [,question] = Object.entries(property)[0];
