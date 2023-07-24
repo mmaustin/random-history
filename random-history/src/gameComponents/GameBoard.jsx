@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { objectOfNumbers, questionsAnswers } from "./gameObjects";
 import GameQuiz from "./GameQuiz";
 import GameOverResponses from "./GameOverResponses";
+import InfoBox from "./InfoBox";
 
 const GameBoard = () => {
   
@@ -204,13 +205,14 @@ const GameBoard = () => {
       alignItems: 'center',
       flexFlow: 'column'
     }}>
-      <Box sx={{
+      <Box mt='15px' sx={{
         width: 1,
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
         flexFlow: 'column'        
-      }}> 
+      }}>
+        <InfoBox />
         <Typography mt='50px' variant="h3" fontFamily='cursive' >Random History</Typography>
         <Typography mt='20px' variant="h5" >History Victory Is Five Points!</Typography>
       </Box>
