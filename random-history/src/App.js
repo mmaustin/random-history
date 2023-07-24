@@ -1,9 +1,14 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import GameHolder from './gameComponents/GameHolder';
 
 function App() {
   return (
-    <div className="App">
-      deleted
+    <div>
+      <BrowserRouter>
+        <Routes>
+        <Route path='/' element={<GameHolder/>} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
