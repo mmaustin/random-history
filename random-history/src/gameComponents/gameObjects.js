@@ -31,7 +31,7 @@ export const questionsAnswers = {
   answers: ['James Monroe', 'George Mason', 'Patrick Henry'],
   answer: 'Patrick Henry'
   },
-  q7: {question: "Franklin, Tennessee is named for this man who was partner in the largest internal slave trading firm in the country:",
+  q7: {question: "Located in Alexandria, VA, Franklin & Armfield, the largest domestic slaving trading firm in America, was co-founded by this man:",
   answers: ['Benjamin Franklin', 'Franklin Templeton', 'Isaac Franklin'],
   answer: 'Isaac Franklin'
   },
