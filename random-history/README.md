@@ -11,9 +11,8 @@ the cell
 --The last cell clicked will always be correct.
 --It takes five points to win the game.
 
-## Run locally
-
-Random History can be run by cloning the repo, cd into the random-history folder, and run npm start.
+## To Play Visit: random-history.onrender.com
+[Random-History](random-history.onrender.com)
 
 ## Built With
 
