@@ -1,7 +1,7 @@
 
 ## RANDOM HISTORY
 
-Random History is a React App created for those who love history.  It's simple to play:
+## Random History is a React App created for those who love history.  It's simple to play:
 
 --Clicking onto a cell triggers the generation of a random number from one to six.
 --If the number of the cell matches the random number, the player gets awarded the number of points indicated on
@@ -11,8 +11,10 @@ the cell
 --The last cell clicked will always be correct.
 --It takes five points to win the game.
 
-## To Play Visit: random-history.onrender.com
-[Random-History](random-history.onrender.com)
+## To Play Visit:
+
+[Random-History][1]
+[1]: https://random-history.onrender.com
 
 ## Built With
 
